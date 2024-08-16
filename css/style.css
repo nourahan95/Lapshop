@@ -1,0 +1,141 @@
+
+*{
+ margin: 0;
+ padding: 0;
+  box-sizing: border-box;  
+}
+body {
+   font-family: 'Outfit', sans-serif;
+}
+
+h4 {
+   font-family: 'Shadows Into Light Two', cursive;
+}
+/*  ========== product section start =========== */
+header{
+   width:100vw;
+   font-size: 18px;
+   z-index: 2000;
+}
+.header-icon{
+   width: 50px;
+   height: 50px;
+   background-color: #98c0eb;
+}
+.header-icon2{
+   width: 25px;
+   height: 25px;
+   margin:-58px 20px ;
+}
+body {
+   font-family: 'Outfit', sans-serif;
+}
+
+h4 {
+   font-family: 'Cooper Black', cursive;
+}
+/*  ========== product section start =========== */
+header{
+   width:100vw;
+   font-size: 18px;
+   z-index: 2000;
+}
+.header-icon{
+   width: 50px;
+   height: 50px;
+   background-color: #97c4f3;
+}
+.header-icon2{
+   width: 25px;
+   height: 25px;
+   margin:-58px 20px ;
+}
+.main1{
+   width: 100vw;
+   height:90vh;
+   background: url(../images/Xiaomi\ laptop.jpg) center / cover;
+   position: relative;
+   padding-top:280px;
+}
+.main1 h2{
+   z-index: 1000;
+   margin-left: 33%;
+}
+.main1::after{
+   width: 100%;
+   height: 100%;
+   background-color: black;
+   opacity: 0.6;
+   content: "";
+   position: absolute;
+   top: 0;
+   z-index: 200;
+}
+.product{
+   height: auto;
+   background-color:#ecdce6;
+}
+.page-btn{
+   margin-left: 50%;
+   transform: translatex(-50%);
+   width: 300px;
+}
+.modal{
+  z-index: 200000000;
+
+}
+.productname , .productprice {
+   height: 59px;
+   display: block;
+   font-size: 18px;
+   padding: 5px;
+}
+.productname1{
+   height: 10px;
+}
+#totalprice{
+   display: none;
+} 
+
+@media (max-width:900px) {
+   .main1{
+       height: 60vh;
+       padding-top: 210px;
+   }
+   .main1 h2{
+       margin-left: 17%;
+   }
+   .card{
+       width: 20rem !important;
+   }
+   .page-btn{
+       transform: translatex(-40%);
+   }
+   .productname , .productprice {
+       height: 65px;  
+   }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
